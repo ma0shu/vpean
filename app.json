@@ -1,18 +1,18 @@
 {
-  "name": "Heroku-v2ray",
-  "description": "将v2ray部署在Heroku上",
+  "name": "vpean",
+  "description": "vpean",
   "keywords": [
-    "v2ray VMess VLESS"
+    "vpean"
   ],
   "env": {
     "PROTOCOL": {
-      "description": "协议VMess或VLESS，请填小写的vmess或vless",
-      "value": "vmess",
+      "description": "vl",
+      "value": "vles[s]",
       "required": true
     },
     "UUID": {
       "description": "用户的主ID",
-      "value": "24b4b1e1-7a89-45f6-858c-242cf53b5bdb",
+      "value": "AF0DCE66-7250-479A-9EB1-86B237456E0B",
       "required": false
     },
     "WS_PATH": {
@@ -21,8 +21,8 @@
       "required": true
     }
   },
-  "website": "https://github.com/Lbingyi/HerokuXray",
-  "repository": "https://github.com/Lbingyi/HerokuXray",
+  "website": "https://github.com/ma0shu/vpean",
+  "repository": "https://github.com/ma0shu/vpean",
   "stack": "container",
   "features": [
     "runtime-dyno-metadata"
